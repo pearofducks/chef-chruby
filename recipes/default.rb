@@ -25,9 +25,9 @@ end
 
 # Workaround for Github issue 5 https://github.com/Atalanta/chef-chruby/issues/5
 
-link "/usr/local/chruby" do
-  to "/usr/local/chruby-1"
-end
+# link "/usr/local/chruby" do
+#   to "/usr/local/chruby-1"
+# end
 
 sh_owner = node['chruby']['sh_owner']
 

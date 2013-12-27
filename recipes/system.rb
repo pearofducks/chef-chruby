@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-include_recipe "ruby_build"
+# include_recipe "ruby_build"
 
 node['chruby']['rubies'].each do |ruby, flag|
   if flag
